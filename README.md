@@ -32,6 +32,8 @@
 | Камера глубины          | depth      | libgazebo_ros_camera.so     | `/camera/color/image_raw`, `/camera/depth/image_raw`, `/camera/points` | 640x480, 15 Гц, аналог Orbbec Astra |
 | GPS                     | gps        | libgazebo_ros_gps_sensor.so | `/gps/fix`                                                             | 5 Гц                                |
 | Дифференциальный привод | diff_drive | libgazebo_ros_diff_drive.so | `/cmd_vel`, `/odom`                                                    | Колея 0.34 м, колёса ⌀ 0.16 м       |
+
+
 **Шасси робота:** 0.4 × 0.3 × 0.1 м, два ведущих колеса + две  
 опорные сферы (спереди и сзади), низкое трение опор (`mu = 0.001`).
 ***
