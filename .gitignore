@@ -1,0 +1,12 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# folders for build and etc
+build/
+install/
+log/
+devel/
+
+*.dot
+*.gv
